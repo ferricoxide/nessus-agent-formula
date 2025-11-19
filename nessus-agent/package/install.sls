@@ -18,7 +18,7 @@
   ) %}
 {%- endif %}
 
-nessus-agent-package-install-pkg-installed:
+Nessus Agent Package-Install:
   pkg.installed:
     - sources:
       - {{ nessus_agent.pkg.name }}: {{ nessus_package_name }}
