@@ -13,7 +13,7 @@
 ---
 values:
   pkg:
-    name: nessus-agent-redhat
+    name: NessusAgent
   config: /etc/nessus-agent.conf
   nessus_root: '/opt/nessus_agent'
   path_mods:
