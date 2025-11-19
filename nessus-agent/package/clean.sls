@@ -9,7 +9,7 @@
 include:
   - {{ sls_config_clean }}
 
-nessus-agent-package-clean-pkg-removed:
+Nessus Agent Package-remove:
   pkg.removed:
     - name: {{ nessus_agent.pkg.name }}
     - require:
