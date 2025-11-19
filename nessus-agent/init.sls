@@ -1,13 +1,8 @@
-{%- set os_family = salt.grains.get('os_family') %}
-
-{%- if os_family == 'Windows' %}
-
-include:
-  - .windows
-
-{%- else %}
+# -*- coding: utf-8 -*-
+# vim: ft=sls
 
 include:
-  - .elx
-
-{%- endif %}
+  - .package
+  - .config
+  - .service
+  - .subcomponent
