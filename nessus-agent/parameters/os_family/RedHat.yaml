@@ -15,4 +15,6 @@ values:
   pkg:
     name: nessus-agent-redhat
   config: /etc/nessus-agent.conf
+  real_nessus_log: '/var/log/nessus/logs'
+  real_nessus_tmp: '/var/tmp/nessus'
 ...
